@@ -16,13 +16,13 @@ class LoginPage extends StatelessWidget {
           ),
           Text(
             'Welcome',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
           ),
           SizedBox(
             height: 10,
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 32),
             child: Column(
               children: [
                 TextFormField(
